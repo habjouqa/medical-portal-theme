@@ -1,6 +1,6 @@
 /*
 Author       : Dreamguys
-Template Name: Doccure - Bootstrap Template
+Template Name: Your Medical Portal - Bootstrap Template
 Version      : 1.3
 */
 

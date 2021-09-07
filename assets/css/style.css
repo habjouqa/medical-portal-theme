@@ -1,6 +1,6 @@
 /*
 Author       : Dreamguys
-Template Name: Doccure - Bootstrap Template
+Template Name: Your Medical Portal - Bootstrap Template
 Version      : 1.3
 */
 
@@ -129,7 +129,7 @@ a {
     color: #2E3842;
 }
 a:hover {
-	color: #09dca4;
+	color: #0de0fe;
 }
 a:hover,
 a:active,
@@ -261,7 +261,7 @@ table.table td h2 a {
 	color: #272b41;
 }
 table.table td h2 a:hover {
-	color: #09dca4;
+	color: #0de0fe;
 }
 table.table td h2 span {
 	color: #888;
@@ -353,7 +353,7 @@ a.bg-primary:focus,
 a.bg-primary:hover, 
 button.bg-primary:focus, 
 button.bg-primary:hover {
-    background-color: #09dca4 !important;
+    background-color: #0de0fe !important;
 }
 .bg-success,
 .badge-success {
@@ -438,8 +438,8 @@ button.bg-danger:hover {
 .btn-primary.active,
 .btn-primary:active,
 .open > .dropdown-toggle.btn-primary {
-	background-color: #09dca4;
-	border: 1px solid #09dca4;
+	background-color: #0de0fe;
+	border: 1px solid #0de0fe;
 }
 .btn-primary.active.focus,
 .btn-primary.active:focus,
@@ -450,14 +450,14 @@ button.bg-danger:hover {
 .open > .dropdown-toggle.btn-primary.focus,
 .open > .dropdown-toggle.btn-primary:focus,
 .open > .dropdown-toggle.btn-primary:hover {
-	background-color: #09dca4;
-	border: 1px solid #09dca4;
+	background-color: #0de0fe;
+	border: 1px solid #0de0fe;
 }
 .btn-primary.active:not(:disabled):not(.disabled),
 .btn-primary:active:not(:disabled):not(.disabled),
 .show > .btn-primary.dropdown-toggle {
-	background-color: #09dca4;
-	border-color: #09dca4;
+	background-color: #0de0fe;
+	border-color: #0de0fe;
 	color: #fff;
 }
 .btn-primary.active:focus:not(:disabled):not(.disabled), 
@@ -1894,7 +1894,7 @@ button.bg-danger:hover {
 	padding: 0;
 }
 .main-nav > li.active > a {
-	color: #09dca4;
+	color: #0de0fe;
 }
 .main-nav > li .submenu li a {
     display: block;
@@ -2014,7 +2014,7 @@ button.bg-danger:hover {
     color: #fff;
 }
 .header-navbar-rht li .dropdown-menu a:hover {
-    color: #09dca4;
+    color: #0de0fe;
 	letter-spacing: 0.5px;
 	padding-left: 20px;
 	background-color: #fff;
@@ -2126,7 +2126,7 @@ button.bg-danger:hover {
     padding: 10px 15px;
 }
 .header-navbar-rht .dropdown-menu .dropdown-item:hover {
-    color: #09dca4;
+    color: #0de0fe;
 }
 .user-header {
 	display: -webkit-box;
@@ -2611,7 +2611,7 @@ html.menu-opened body {
     font-size: 13px;
 }
 .login-right .dont-have a {
-	color: #09dca4;
+	color: #0de0fe;
 }
 .login-btn {
     font-size: 18px;
@@ -3841,7 +3841,7 @@ html.menu-opened body {
 	color: #fff;
 }
 .section-features {
-	background-color: #fff;
+	/* background-color: #fff; */
 	padding: 80px 0;
 }
 .feature-item img {
@@ -10501,14 +10501,14 @@ ul.benifits-col li i{
 		transform: translateY(0);
 	}
 	.main-nav .has-submenu.active > a {
-		color: #09dca4;
+		color: #0de0fe;
 	}
 	.header-four .main-nav .has-submenu.active > a {
 		color: #fff;
     	border-top: 3px solid #E74E84;
 	}
 	.main-nav .has-submenu.active .submenu li.active > a {
-		color: #09dca4;
+		color: #0de0fe;
 	}
 	.main-nav > li .submenu li:first-child a {
 		border-top: 0;
@@ -10525,7 +10525,7 @@ ul.benifits-col li i{
 		margin-top: 10px;
 	}
 	.main-nav li .submenu a:hover {
-		color: #09dca4;
+		color: #0de0fe;
 		letter-spacing: 0.5px;
 		padding-left: 20px;
 	}
@@ -10702,10 +10702,10 @@ ul.benifits-col li i{
 		content: "\f078";
 	}
 	.main-nav .has-submenu.active > a {
-		color: #09dca4;
+		color: #0de0fe;
 	}
 	.main-nav .has-submenu.active .submenu li.active > a {
-		color: #09dca4;
+		color: #0de0fe;
 	}
 	.login-left {
 		display: none;
@@ -11997,7 +11997,7 @@ ul.benifits-col li i{
 		max-width: 160px;
 	}
 	.section-features, .section-features, .section-specialities {
-		background-color: #fff;
+		/* background-color: #fff; */
 		padding: 30px 0;
 	} 
 	.login-header h3 a {
