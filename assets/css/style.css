@@ -2576,6 +2576,15 @@ html.menu-opened body {
 .footer.footer-2 .footer-contact-info .footer-address span i.fa-map-marker-alt {
     font-size: 16px;
 }
+.footer a {
+	color: #fff;
+}
+.footer a {	
+	color: #fff;
+}
+.footer a:hover {
+	color: var(--color-primary);
+}
 
 /*-----------------
 	14. Login
