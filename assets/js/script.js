@@ -786,7 +786,7 @@ Version      : 1.3
           type: 'gradient',
           gradient: {
             shade: 'dark',
-            gradientToColors: [ '#0de0fe'],
+            gradientToColors: [ '#99cce0'],
             shadeIntensity: 1,
             type: 'horizontal',
             opacityFrom: 1,
@@ -859,8 +859,8 @@ Version      : 1.3
             fill: {
               type: 'gradient',
               gradient: {
-                colorFrom: '#0de0fe',
-                colorTo: '#0de0fe',
+                colorFrom: '#99cce0',
+                colorTo: '#99cce0',
                 stops: [0, 100],
                 opacityFrom: 0.4,
                 opacityTo: 0.5,
