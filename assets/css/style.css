@@ -10715,7 +10715,7 @@ ul.benifits-col li i{
 		content: "\f078";
 	}
 	.main-nav .has-submenu.active > a {
-		color: var(--color-secondary);
+		color: #fff
 	}
 	.main-nav .has-submenu.active .submenu li.active > a {
 		color: var(--color-secondary);
