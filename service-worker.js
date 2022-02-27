@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/medical-portal-theme/precache-manifest.31c5f840964ca522b3a477a8224612f9.js"
+  "/medical-portal-theme/precache-manifest.72cfc3ecb6e1f34ef035af170f955942.js"
 );
 
 self.addEventListener('message', (event) => {
