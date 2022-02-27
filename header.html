@@ -1,43 +1,62 @@
-
-			<header class="header">
-				<nav class="navbar navbar-expand-lg header-nav">
-					<div class="navbar-header">
-						<a id="mobile_btn" href="javascript:void(0);">
-							<span class="bar-icon">
-								<span></span>
-								<span></span>
-								<span></span>
-							</span>
-						</a>
-						<a href="index.html" class="navbar-brand logo">
-							<img src="assets/img/logo.png" class="img-fluid" alt="Logo">
-						</a>
-					</div>
-					<div class="main-menu-wrapper">
-						<div class="menu-header">
-							<a href="index.html" class="menu-logo">
-								<img src="assets/img/logo.png" class="img-fluid" alt="Logo">
-							</a>
-							<a id="menu_close" class="menu-close" href="javascript:void(0);">
-								<i class="fas fa-times"></i>
-							</a>
-						</div>
-						<ul class="main-nav">
-							<li>
-								<a href="about-us.html">About Us</a>
-							</li>
-							<li>
-								<a href="term-condition.html">Terms and Conditions</a>
-							</li>
-							<li>
-								<a href="privacy-policy.html">Policy</a>
-							</li>
-<!-- 							
+<script>
+  $(function () {
+    var queries = {};
+    $.each(document.location.search.substr(1).split("&"), function (c, q) {
+      var i = q.split("=");
+	  if(i.length > 1) {
+		  queries[i[0].toString()] = i[1].toString();
+		}
+    });
+    if(queries['loggedIn'] && queries['loggedIn'] === 'true') {
+		$(".header-login").hide()
+	}
+	else if(queries['loggedIn'] && queries['loggedIn'] === 'false') {
+		$(".logged-item").hide()
+	}
+	else {
+		$(".logged-item").hide()
+	}
+  });
+</script>
+<header class="header">
+  <nav class="navbar navbar-expand-lg header-nav">
+    <div class="navbar-header">
+      <a id="mobile_btn" href="javascript:void(0);">
+        <span class="bar-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+      </a>
+      <a href="index.html" class="navbar-brand logo">
+        <img src="assets/img/logo.png" class="img-fluid" alt="Logo" />
+      </a>
+    </div>
+    <div class="main-menu-wrapper">
+      <div class="menu-header">
+        <a href="index.html" class="menu-logo">
+          <img src="assets/img/logo.png" class="img-fluid" alt="Logo" />
+        </a>
+        <a id="menu_close" class="menu-close" href="javascript:void(0);">
+          <i class="fas fa-times"></i>
+        </a>
+      </div>
+      <ul class="main-nav">
+        <li>
+          <a href="about-us.html">About Us</a>
+        </li>
+        <li>
+          <a href="term-condition.html">Terms and Conditions</a>
+        </li>
+        <li>
+          <a href="privacy-policy.html">Policy</a>
+        </li>
+        <!-- 							
 							<li class="has-submenu active">
 								<a href="index.html">Home</a>
 							</li>
 -->
-<!--
+        <!--
 							<li class="has-submenu">
 								<a href="">Doctors <i class="fas fa-chevron-down"></i></a>
 								<ul class="submenu">
@@ -99,48 +118,61 @@
 								<a href="login.html">Login / Signup</a>
 							</li>
 -->
-						</ul>		 
-					</div>		 
-					<ul class="nav header-navbar-rht">
-						<li class="nav-item contact-item">
-							<div class="header-contact-img">
-								<i class="far fa-hospital"></i>							
-							</div>
-							<div class="header-contact-detail">
-								<p class="contact-header">Contact</p>
-								<p class="contact-info-header"><a href="tel:+01 111 222 33 44">+01 111 222 33 44</a></p>
-							</div>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link header-login" href="login.html">login / Signup </a>
-						</li>
-						
-						<!-- User Menu -->
-						<li class="nav-item dropdown has-arrow logged-item">
-							<a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
-								<span class="user-img">
-									<img class="rounded-circle" src="assets/img/patients/patient.jpg" width="31" alt="Ryan Taylor">
-								</span>
-							</a>
-							<div class="dropdown-menu dropdown-menu-right">
-								<div class="user-header">
-									<div class="avatar avatar-sm">
-										<img src="assets/img/patients/patient.jpg" alt="User Image" class="avatar-img rounded-circle">
-									</div>
-									<div class="user-text">
-										<h6>Richard Wilson</h6>
-										<p class="text-muted mb-0">Patient</p>
-									</div>
-								</div>
-								<a class="dropdown-item" href="patient-dashboard.html">Dashboard</a>
-								<a class="dropdown-item" href="profile-settings.html">Profile Settings</a>
-								<a class="dropdown-item" href="login.html">Logout</a>
-							</div>
-						</li>
-						<!-- /User Menu -->
-					</ul>
-				</nav>
-			</header>
-			
-			<!-- Custom JS -->
-			<script src="assets/js/script.js"></script>
+      </ul>
+    </div>
+    <ul class="nav header-navbar-rht">
+      <li class="nav-item contact-item">
+        <div class="header-contact-img">
+          <i class="far fa-hospital"></i>
+        </div>
+        <div class="header-contact-detail">
+          <p class="contact-header">Contact</p>
+          <p class="contact-info-header">
+            <a href="tel:+01 111 222 33 44">+01 111 222 33 44</a>
+          </p>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link header-login" href="login.html">login / Signup </a>
+      </li>
+
+      <!-- User Menu -->
+      <li class="nav-item dropdown has-arrow logged-item">
+        <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+          <span class="user-img">
+            <img
+              class="rounded-circle"
+              src="assets/img/patients/patient.jpg"
+              width="31"
+              alt="Ryan Taylor"
+            />
+          </span>
+        </a>
+        <div class="dropdown-menu dropdown-menu-right">
+          <div class="user-header">
+            <div class="avatar avatar-sm">
+              <img
+                src="assets/img/patients/patient.jpg"
+                alt="User Image"
+                class="avatar-img rounded-circle"
+              />
+            </div>
+            <div class="user-text">
+              <h6>Richard Wilson</h6>
+              <p class="text-muted mb-0">Patient</p>
+            </div>
+          </div>
+          <a class="dropdown-item" href="patient-dashboard.html">Dashboard</a>
+          <a class="dropdown-item" href="profile-settings.html"
+            >Profile Settings</a
+          >
+          <a class="dropdown-item" href="login.html">Logout</a>
+        </div>
+      </li>
+      <!-- /User Menu -->
+    </ul>
+  </nav>
+</header>
+
+<!-- Custom JS -->
+<script src="assets/js/script.js"></script>
