@@ -20,7 +20,7 @@ var locations = [{
 	"icons": "default",
 	"profile_link": "profile.html",
 	"total_review": "17",
-	"image": 'assets/img/user/patient.jpg'
+	"image": 'assets/img/doctors/doctor-01.jpg'
 }, {
 
 	"id": 02,
@@ -34,7 +34,7 @@ var locations = [{
 	"icons": "default",
 	"profile_link": "profile.html",
 	"total_review": "35",
-	"image": 'assets/img/user/patient1.jpg'
+	"image": 'assets/img/doctors/doctor-01.jpg'
 }, {
 	"id": 03,
 	"doc_name": "Dr. Deborah Angel",
@@ -47,7 +47,7 @@ var locations = [{
 	"icons": "default",
 	"profile_link": "profile.html",
 	"total_review": "27",
-	"image": 'assets/img/user/patient2.jpg'
+	"image": 'assets/img/doctors/doctor-02.jpg'
 }, {
 	"id": 04,
 	"doc_name": "Dr. Sofia Brient",
@@ -60,7 +60,7 @@ var locations = [{
 	"icons": "default",
 	"profile_link": "profile.html",
 	"total_review": "4",
-	"image": 'assets/img/user/patient3.jpg'
+	"image": 'assets/img/doctors/doctor-03.jpg'
 }, {
 	"id": 05,
 	"doc_name": "Dr. Marvin Campbell",
@@ -86,7 +86,7 @@ var locations = [{
 	"icons": "default",
 	"profile_link": "profile.html",
 	"total_review": "52",
-	"image": 'assets/img/user/patient5.jpg'
+	"image": 'assets/img/doctors/doctor-05.jpg'
 }, {
 	"id": 07,
 	"doc_name": "Dr. Linda Tobin",
@@ -99,7 +99,7 @@ var locations = [{
 	"icons": "default",
 	"profile_link": "profile.html",
 	"total_review": "43",
-	"image": 'assets/img/user/patient6.jpg'
+	"image": 'assets/img/doctors/doctor-06.jpg'
 }, {
 	"id": 08,
 	"doc_name": "Dr. Paul Richard",
@@ -112,7 +112,7 @@ var locations = [{
 	"icons": "default",
 	"profile_link": "profile.html",
 	"total_review": "49",
-	"image": 'assets/img/user/patient7.jpg'
+	"image": 'assets/img/doctors/doctor-07.jpg'
 }, {
 	"id": 09,
 	"doc_name": "Dr. John Gibbs",
@@ -125,7 +125,7 @@ var locations = [{
 	"icons": "default",
 	"profile_link": "profile.html",
 	"total_review": "112",
-	"image": 'assets/img/user/patient8.jpg'
+	"image": 'assets/img/doctors/doctor-08.jpg'
 }, {
 	"id": 10,
 	"doc_name": "Dr. Olga Barlow",
@@ -138,7 +138,7 @@ var locations = [{
 	"icons": "default",
 	"profile_link": "profile.html",
 	"total_review": "65",
-	"image": 'assets/img/user/patient9.jpg'
+	"image": 'assets/img/doctors/doctor-09.jpg'
 }, {
 	"id": 11,
 	"doc_name": "Dr. Julia Washington",
@@ -151,7 +151,7 @@ var locations = [{
 	"icons": "default",
 	"profile_link": "profile.html",
 	"total_review": "5",
-	"image": 'assets/img/user/patient10.jpg'
+	"image": 'assets/img/doctors/doctor-010.jpg'
 }, {
 	"id": 12,
 	"doc_name": "Dr. Shaun Aponte",
@@ -164,7 +164,7 @@ var locations = [{
 	"icons": "default",
 	"profile_link": "profile.html",
 	"total_review": "5",
-	"image": 'assets/img/user/patient11.jpg'
+	"image": 'assets/img/doctors/doctor-011.jpg'
 }
 ];
 
