@@ -1,198 +1,218 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>Your Medical Portal</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-		
-		<!-- Favicons -->
-		<link href="assets/img/favicon.png" rel="icon">
-		
-		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-		
-		<!-- Fontawesome CSS -->
-		<link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
-		<link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
-		
-		<!-- Main CSS -->
-		<link rel="stylesheet" href="assets/css/style.css">
-		
-		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-		<!--[if lt IE 9]>
-			<script src="assets/js/html5shiv.min.js"></script>
-			<script src="assets/js/respond.min.js"></script>
-		<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <title>Your Medical Portal</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=0"
+    />
 
-<script
-src="https://code.jquery.com/jquery-3.3.1.js"
-integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-crossorigin="anonymous">
-</script>
-<script> 
-$(function(){
-$("#header").load("header.html"); 
-$("#footer").load("footer.html"); 
-});
-</script>
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
 
-</head>
-	<body>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
 
-		<!-- Main Wrapper -->
-		<div class="main-wrapper">
-		
-			<!-- Header -->
-			<div id="header"></div>
-			<!-- /Header -->
-			
-			<!-- Breadcrumb -->
-			<div class="breadcrumb-bar">
-				<div class="container-fluid">
-					<div class="row align-items-center">
-						<div class="col-md-12 col-12">
-							<nav aria-label="breadcrumb" class="page-breadcrumb">
-								<ol class="breadcrumb">
-									<li class="breadcrumb-item"><a href="index.html">Home</a></li>
-									<li class="breadcrumb-item active" aria-current="page">Checkout</li>
-								</ol>
-							</nav>
-							<h2 class="breadcrumb-title">Checkout</h2>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- /Breadcrumb -->
-			
-			<!-- Page Content -->
-			<div class="content">
-				<div class="container">
+    <!-- Fontawesome CSS -->
+    <link
+      rel="stylesheet"
+      href="assets/plugins/fontawesome/css/fontawesome.min.css"
+    />
+    <link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css" />
 
-					<div class="row">
-						<div class="col-md-7 col-lg-8">
-							<div class="card">
-								<div class="card-body">
-								
-									<!-- Checkout Form -->
-									<form action="booking-success.html">
-									
-										<!-- Doctor Details Tab -->
-										<div class="card">
-											<div class="card-body pt-0">
-											<h1 class="btn w-100 active">BREIF GOES HERE</h1>
-												<!-- Tab Menu -->
-												<nav class="user-tabs mb-4">
-													<ul class="nav nav-tabs nav-tabs-bottom nav-justified">
-														<li class="nav-item">
-															<a class="nav-link active" href="#self_info" data-toggle="tab">Self Information</a>
-														</li>
-														<li class="nav-item">
-															<a class="nav-link" href="#others_info" data-toggle="tab">On behalf of</a>
-														</li>
-													</ul>
-												</nav>
-												<!-- /Tab Menu -->
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
 
-												<!-- Tab Content -->
-												<div class="tab-content pt-0">
-															<!-- Self Information -->
-															<div role="tabpanel" id="self_info" class="tab-pane fade show active">
-																<div class="info-widget">
-																	<h4 class="card-title">Self Information</h4>
-																	<div class="row">
-																		<div class="col-md-6 col-sm-12">
-																			<div class="form-group card-label">
-																				<label>First Name</label>
-																				<input class="form-control" type="text">
-																			</div>
-																		</div>
-																		<div class="col-md-6 col-sm-12">
-																			<div class="form-group card-label">
-																				<label>Last Name</label>
-																				<input class="form-control" type="text">
-																			</div>
-																		</div>
-																		<div class="col-md-6 col-sm-12">
-																			<div class="form-group card-label">
-																				<label>Email</label>
-																				<input class="form-control" type="email">
-																			</div>
-																		</div>
-																		<div class="col-md-6 col-sm-12">
-																			<div class="form-group card-label">
-																				<label>Phone</label>
-																				<input class="form-control" type="text">
-																			</div>
-																		</div>
-																	</div>
-																	<!-- <div class="exist-customer">Existing Customer? <a href="/login.html">Click here to login</a></div> -->
-																</div>
-															</div>
-															<!-- /Self Information -->
-															
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.min.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
 
-															<!-- On behalf of -->
-															<div role="tabpanel" id="others_info" class="tab-pane fade">
-																<div class="info-widget">
-																	<h4 class="card-title">On behalf of</h4>
-																	<div class="row">
-																		<div class="col-md-6 col-sm-12">
-																			<div class="form-group card-label">
-																				<label>First Name</label>
-																				<input class="form-control" type="text">
-																			</div>
-																		</div>
-																		<div class="col-md-6 col-sm-12">
-																			<div class="form-group card-label">
-																				<label>Last Name</label>
-																				<input class="form-control" type="text">
-																			</div>
-																		</div>
-																	</div>
-																	<!-- <div class="exist-customer">Existing Customer? <a href="/login.html">Click here to login</a></div> -->
-																</div>
-																<div class="info-widget">
-																	<h4 class="card-title">Self Information</h4>
-																	<div class="row">
-																		<div class="col-md-6 col-sm-12">
-																			<div class="form-group card-label">
-																				<label>First Name</label>
-																				<input class="form-control" type="text">
-																			</div>
-																		</div>
-																		<div class="col-md-6 col-sm-12">
-																			<div class="form-group card-label">
-																				<label>Last Name</label>
-																				<input class="form-control" type="text">
-																			</div>
-																		</div>
-																		<div class="col-md-6 col-sm-12">
-																			<div class="form-group card-label">
-																				<label>Email</label>
-																				<input class="form-control" type="email">
-																			</div>
-																		</div>
-																		<div class="col-md-6 col-sm-12">
-																			<div class="form-group card-label">
-																				<label>Phone</label>
-																				<input class="form-control" type="text">
-																			</div>
-																		</div>
-																	</div>
-																	<!-- <div class="exist-customer">Existing Customer? <a href="/login.html">Click here to login</a></div> -->
-																</div>
-															</div>
-															<!-- /On behalf of -->
-												<!-- /Tab Content -->
-												</div>
-											</div>
-										</div>
-										
-										<div class="payment-widget">
-											<!-- <h4 class="card-title">Payment Method</h4> -->
-											
-											<!-- Credit Card Payment -->
-											<!-- <div class="payment-list">
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(function () {
+        $("#header").load("header.html");
+        $("#footer").load("footer.html");
+      });
+    </script>
+  </head>
+  <body>
+    <!-- Main Wrapper -->
+    <div class="main-wrapper">
+      <!-- Header -->
+      <div id="header"></div>
+      <!-- /Header -->
+
+      <!-- Breadcrumb -->
+      <div class="breadcrumb-bar">
+        <div class="container-fluid">
+          <div class="row align-items-center">
+            <div class="col-md-12 col-12">
+              <nav aria-label="breadcrumb" class="page-breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">
+                    Checkout
+                  </li>
+                </ol>
+              </nav>
+              <h2 class="breadcrumb-title">Checkout</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /Breadcrumb -->
+
+      <!-- Page Content -->
+      <div class="content">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7 col-lg-8">
+              <div class="card">
+                <div class="card-body">
+                  <!-- Checkout Form -->
+                  <form action="booking-success.html">
+                    <!-- Doctor Details Tab -->
+                    <div class="card">
+                      <div class="card-body pt-0">
+                        <!-- Tab Menu -->
+                        <nav class="user-tabs mb-4">
+                          <ul
+                            class="nav nav-tabs nav-tabs-bottom nav-justified"
+                          >
+                            <li class="nav-item">
+                              <a
+                                class="nav-link active"
+                                href="#self_info"
+                                data-toggle="tab"
+                                >Self Information</a
+                              >
+                            </li>
+                            <li class="nav-item">
+                              <a
+                                class="nav-link"
+                                href="#others_info"
+                                data-toggle="tab"
+                                >On behalf of</a
+                              >
+                            </li>
+                          </ul>
+                        </nav>
+                        <!-- /Tab Menu -->
+
+                        <!-- Tab Content -->
+                        <div class="tab-content pt-0">
+                          <!-- Self Information -->
+                          <div
+                            role="tabpanel"
+                            id="self_info"
+                            class="tab-pane fade show active"
+                          >
+                            <div class="info-widget">
+                              <h4 class="card-title">Self Information</h4>
+                              <div class="row">
+                                <div class="col-md-6 col-sm-12">
+                                  <div class="form-group card-label">
+                                    <label>First Name</label>
+                                    <input class="form-control" type="text" />
+                                  </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                  <div class="form-group card-label">
+                                    <label>Last Name</label>
+                                    <input class="form-control" type="text" />
+                                  </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                  <div class="form-group card-label">
+                                    <label>Email</label>
+                                    <input class="form-control" type="email" />
+                                  </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                  <div class="form-group card-label">
+                                    <label>Phone</label>
+                                    <input class="form-control" type="text" />
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- <div class="exist-customer">Existing Customer? <a href="/login.html">Click here to login</a></div> -->
+                            </div>
+                          </div>
+                          <!-- /Self Information -->
+
+                          <!-- On behalf of -->
+                          <div
+                            role="tabpanel"
+                            id="others_info"
+                            class="tab-pane fade"
+                          >
+                            <div class="info-widget">
+                              <h4 class="card-title">On behalf of</h4>
+                              <div class="row">
+                                <div class="col-md-6 col-sm-12">
+                                  <div class="form-group card-label">
+                                    <label>First Name</label>
+                                    <input class="form-control" type="text" />
+                                  </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                  <div class="form-group card-label">
+                                    <label>Last Name</label>
+                                    <input class="form-control" type="text" />
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- <div class="exist-customer">Existing Customer? <a href="/login.html">Click here to login</a></div> -->
+                            </div>
+                            <div class="info-widget">
+                              <h4 class="card-title">Self Information</h4>
+                              <div class="row">
+                                <div class="col-md-6 col-sm-12">
+                                  <div class="form-group card-label">
+                                    <label>First Name</label>
+                                    <input class="form-control" type="text" />
+                                  </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                  <div class="form-group card-label">
+                                    <label>Last Name</label>
+                                    <input class="form-control" type="text" />
+                                  </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                  <div class="form-group card-label">
+                                    <label>Email</label>
+                                    <input class="form-control" type="email" />
+                                  </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                  <div class="form-group card-label">
+                                    <label>Phone</label>
+                                    <input class="form-control" type="text" />
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- <div class="exist-customer">Existing Customer? <a href="/login.html">Click here to login</a></div> -->
+                            </div>
+                          </div>
+                          <!-- /On behalf of -->
+                          <!-- /Tab Content -->
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="payment-widget">
+                      <!-- <h4 class="card-title">Payment Method</h4> -->
+
+                      <!-- Credit Card Payment -->
+                      <!-- <div class="payment-list">
 												<label class="payment-radio credit-card-option">
 													<input type="radio" name="radio" checked>
 													<span class="checkmark"></span>
@@ -231,59 +251,79 @@ $("#footer").load("footer.html");
 													</div>
 												</div>
 											</div> -->
-											<!-- /Credit Card Payment -->
-											
-											<!-- Paypal Payment -->
-											<!-- <div class="payment-list">
+                      <!-- /Credit Card Payment -->
+
+                      <!-- Paypal Payment -->
+                      <!-- <div class="payment-list">
 												<label class="payment-radio paypal-option">
 													<input type="radio" name="radio">
 													<span class="checkmark"></span>
 													Paypal
 												</label>
 											</div> -->
-											<!-- /Paypal Payment -->
-											
-											<!-- Terms Accept -->
-											<div class="terms-accept">
-												<div class="custom-checkbox">
-												   <input type="checkbox" id="terms_accept">
-												   <label for="terms_accept">I have read and accept <a href="/term-condition.html">Terms &amp; Conditions</a></label>
-												</div>
-											</div>
-											<!-- /Terms Accept -->
-											
-											<!-- Submit Section -->
-											<div class="submit-section mt-4">
-												<button type="submit" class="btn btn-primary submit-btn">Confirm</button>
-											</div>
-											<!-- /Submit Section -->
-											
-										</div>
-									</form>
-									<!-- /Checkout Form -->
-									
-								</div>
-							</div>
-							
-						</div>
-						
-						<div class="col-md-5 col-lg-4 theiaStickySidebar">
-						
-							<!-- Booking Summary -->
-							<div class="card booking-card">
-								<div class="card-header">
-									<h4 class="card-title">Booking Summary</h4>
-								</div>
-								<div class="card-body">
-								
-									<!-- Booking Doctor Info -->
-									<div class="booking-doc-info">
-										<a href="doctor-profile.html" class="booking-doc-img">
-											<img src="assets/img/doctors/doctor-thumb-02.jpg" alt="User Image">
-										</a>
-										<div class="booking-info">
-											<h4><a href="doctor-profile.html">Dr. Darren Elder</a></h4>
-											<!-- <div class="rating">
+                      <!-- /Paypal Payment -->
+
+                      <!-- Terms Accept -->
+                      <div class="terms-accept">
+                        <div class="custom-checkbox">
+                          <input type="checkbox" id="terms_accept" />
+                          <label for="terms_accept"
+                            >I have read and accept
+                            <a href="/term-condition.html"
+                              >Terms &amp; Conditions</a
+                            ></label
+                          >
+                        </div>
+                      </div>
+                      <!-- /Terms Accept -->
+
+                      <!-- Submit Section -->
+                      <div
+                        class="submit-section mt-4 row justify-content-between px-4"
+                      >
+                        <button
+                          type="button"
+                          class="btn btn-primary submit-btn"
+                          onclick="location.href='/checkout.html';"
+                        >
+                          Back
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-primary submit-btn"
+                          onclick="location.href='/booking-success.html';"
+                        >
+                          Next
+                        </button>
+                      </div>
+                      <!-- /Submit Section -->
+                    </div>
+                  </form>
+                  <!-- /Checkout Form -->
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-5 col-lg-4 theiaStickySidebar">
+              <!-- Booking Summary -->
+              <div class="card booking-card">
+                <div class="card-header">
+                  <h4 class="card-title">Booking Summary</h4>
+                </div>
+                <div class="card-body">
+                  <!-- Booking Doctor Info -->
+                  <div class="booking-doc-info">
+                    <a href="doctor-profile.html" class="booking-doc-img">
+                      <img
+                        src="assets/img/doctors/doctor-thumb-02.jpg"
+                        alt="User Image"
+                      />
+                    </a>
+                    <div class="booking-info">
+                      <h4>
+                        <a href="doctor-profile.html">Dr. Darren Elder</a>
+                      </h4>
+                      <!-- <div class="rating">
 												<i class="fas fa-star filled"></i>
 												<i class="fas fa-star filled"></i>
 												<i class="fas fa-star filled"></i>
@@ -291,25 +331,27 @@ $("#footer").load("footer.html");
 												<i class="fas fa-star"></i>
 												<span class="d-inline-block average-rating">35</span>
 											</div> -->
-											<div class="clinic-details">
-												<p class="doc-location"><i class="fas fa-map-marker-alt"></i> Newyork, USA</p>
-											</div>
-										</div>
-									</div>
-									<!-- Booking Doctor Info -->
-									
-									<div class="booking-summary">
-										<div class="booking-item-wrap">
-											<ul class="booking-date p-2">
-												<li>Approximate Date <span>16 Nov 2019</span></li>
-												<!-- <li>Time <span>10:00 AM</span></li> -->
-											</ul>
-											<!-- <ul class="booking-fee">
+                      <div class="clinic-details">
+                        <p class="doc-location">
+                          <i class="fas fa-map-marker-alt"></i> Newyork, USA
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Booking Doctor Info -->
+
+                  <div class="booking-summary">
+                    <div class="booking-item-wrap">
+                      <ul class="booking-date p-2">
+                        <li>Approximate Date <span>16 Nov 2019</span></li>
+                        <!-- <li>Time <span>10:00 AM</span></li> -->
+                      </ul>
+                      <!-- <ul class="booking-fee">
 												<li>Consulting Fee <span>$100</span></li>
 												<li>Booking Fee <span>$10</span></li>
 												<li>Video Call <span>$50</span></li>
 											</ul> -->
-											<!-- <div class="booking-total">
+                      <!-- <div class="booking-total">
 												<ul class="booking-total-list">
 													<li>
 														<span>Total</span>
@@ -317,40 +359,35 @@ $("#footer").load("footer.html");
 													</li>
 												</ul>
 											</div> -->
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- /Booking Summary -->
-							
-						</div>
-					</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- /Booking Summary -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /Page Content -->
 
-				</div>
+      <!-- Footer -->
+      <div id="footer"></div>
+      <!-- /Footer -->
+    </div>
+    <!-- /Main Wrapper -->
 
-			</div>		
-			<!-- /Page Content -->
-   
-			<!-- Footer -->
-			<div id="footer"></div>
-			<!-- /Footer -->
-		   
-		</div>
-		<!-- /Main Wrapper -->
-	  
-		<!-- jQuery -->
-		<script src="assets/js/jquery.min.js"></script>
-		
-		<!-- Bootstrap Core JS -->
-		<script src="assets/js/popper.min.js"></script>
-		<script src="assets/js/bootstrap.min.js"></script>
-		
-		<!-- Sticky Sidebar JS -->
-        <script src="assets/plugins/theia-sticky-sidebar/ResizeSensor.js"></script>
-        <script src="assets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.js"></script>
-		
-		<!-- Custom JS -->
-		<script src="assets/js/script.js"></script>
-		
-	</body>
+    <!-- jQuery -->
+    <script src="assets/js/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JS -->
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Sticky Sidebar JS -->
+    <script src="assets/plugins/theia-sticky-sidebar/ResizeSensor.js"></script>
+    <script src="assets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.js"></script>
+
+    <!-- Custom JS -->
+    <script src="assets/js/script.js"></script>
+  </body>
 </html>
